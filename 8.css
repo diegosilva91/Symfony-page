@@ -2,7 +2,15 @@
     border:1px solid #0f0;
     color: blue;
 }
-.parent{
+.parent1, .children1{
     justify-content: center;
     display: flex
+}
+.parent{
+    right: 50px;
+    position: absolute;
+}
+.children{
+    width: 20px;
+    height: 20px;
 }

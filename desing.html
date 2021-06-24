@@ -4,9 +4,19 @@
         <title></title>
     </head>
     <link rel="stylesheet" href="8.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <body>
-        <div class="parent">
-            <div class="children">Texto</div>
+        <div id="toPrint" class="parent1">
+            <div class="children1">Texto</div>
         </div>
+
+        <div class="grandparent">
+            <div class="parent">
+                <a id="toPDf" class="children">Texto to PDF</a>
+            </div>
+        </div>
+        <script src="7.js"></script>
     </body>
 </html>
